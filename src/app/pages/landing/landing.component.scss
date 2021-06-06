@@ -16,6 +16,7 @@
   &::-webkit-scrollbar {
     display: none;
   }
+  
   section {
     display: flex;
     justify-content: center;
@@ -39,11 +40,6 @@
     &:nth-of-type(4) {
       background-color: red;
       color: whitesmoke;
-    }
-
-    h1 {
-      font-family: Georgia, "Times New Roman", Times, serif;
-      font-size: 15em;
     }
   }
 }
