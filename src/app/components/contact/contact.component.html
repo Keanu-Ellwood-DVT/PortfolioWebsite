@@ -1,1 +1,37 @@
-<p>contact works!</p>
+<div class="container">
+    <div class="left">
+        <div class="heading">
+            <h1>CONTACT ME</h1>
+        </div>
+        <div class="info">
+            <p id="infoHeading">CONTACT INFO</p>
+            <p id="infoLocation"><a href="https://goo.gl/maps/1APPT2xi2nXWEdgXA"><i class="gg-pin"></i>PRETORIA, Gauteng 0082</a></p>
+            <p id="infoEmail"><a href="mailto:keanu.ellwood@gmail.com?subject=Mail from Portfolio"><i
+                        class="gg-mail"></i>keanu.ellwood@gmail.com</a></p>
+            <p id="infoTelephone"><a href="tel:+27815620090"><i class="gg-phone"></i>(+27)81 562 0090</a></p>
+        </div>
+    </div>
+    <div class="right">
+        <div class="form-wrapper">
+            <form (ngSubmit)="ngOnInit()" [formGroup]="contactForm">
+
+                <div class="form-group">
+                    <input type="text" class="form-control" formControlName="cName" placeholder="Name *" minlength="2" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" class="form-control" formControlName="cEmail" placeholder="Email *" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea class="form-control" formControlName="cMessage" placeholder="Message" rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button [disabled]="!contactForm.valid" type="submit" class="btn btn-warning">Send</button>
+                </div>
+        
+            </form>
+        </div>
+    </div>
+</div>
