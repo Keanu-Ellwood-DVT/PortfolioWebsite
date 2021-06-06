@@ -10,4 +10,7 @@
   <a href="https://github.com/Keanu-Ellwood-DVT/PortfolioWebsite">
       <img src="https://img.shields.io/github/languages/code-size/Keanu-Ellwood-DVT/PortfolioWebsite?style=plastic">
   </a>
+  <a href="https://github.com/Keanu-Ellwood-DVT/PortfolioWebsite/graphs/commit-activity">
+      <img src="https://img.shields.io/github/commit-activity/m/Keanu-Ellwood-DVT/PortfolioWebsite?style=plastic">
+  </a>
 </p>
